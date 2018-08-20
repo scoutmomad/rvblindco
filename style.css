@@ -1,0 +1,120 @@
+span {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	padding: 15px;
+	margin: 2px;
+}
+
+nav {
+	color: black;
+}
+
+span.a {
+	margin: 50px;
+	width: 42%;
+	display: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img {
+	box-shadow: 10px 10px grey;
+	margin-left: 80px;
+}
+img.responsive {
+	max-width: 100%
+	height: auto;
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 150px;
+	font: 'Montserrat' sans-serif;
+	display: flex; justify-content: center;
+	position: right;
+	margin: auto;
+}
+
+.btn-md {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: #800000;
+	border-color: lightgray;
+	margin-top: -50px;
+}
+
+.btn-primary:hover {
+	background-color: #FF8C00;
+	border-color: #FF4500;
+}
+
+body {
+  background: linear-gradient(to right, #CD5C5C, #FF8C00, #DAA520, transparent), url("logo.jpg"), no-repeat center; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1800px;
+ }
+
+
+h1 {
+	font-family: 'Merienda', cursive;
+	font-size: 6vw;
+	color: #A9A9A9;
+	width: auto;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+	text-shadow: 2px 2px #000000;
+}
+
+h2 {
+	font-family: Merienda, cursive;
+	font-size: 4vw;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+
+h4 {
+	font-family: Merienda, cursive;
+	font-size: 3vw;
+	color: white;
+	text-align: center;
+}
+
+h5 {
+	font-family: Merienda, cursive;
+	font-size: 2vw;
+	color: white;
+	text-align: center;
+}
+
+.footer {
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+footer {
+	font-family: fantasy;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	position: center;
+	right: 100;
+	bottom: 0;
+	width: 100%;
+}
+
+
